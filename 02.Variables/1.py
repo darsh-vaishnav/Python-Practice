@@ -40,5 +40,5 @@ student_name = "Aman"
 student_age = 17
 student_age = 18
 
-print(f"Name: {student_name}")
-print(f"Age: {student_age}")
+print("Name: {student_name}")
+print("Age: {student_age}")
