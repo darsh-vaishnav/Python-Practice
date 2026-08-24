@@ -82,3 +82,11 @@ possibility_bol=True
 possibility_str="True"
 result_Nonetype=None
 result_str="None"
+
+print(type(value_int))
+print(type(value_float))
+print(type(value_str))
+print(type(possibility_bol))
+print(type(possibility_str))
+print(type(result_Nonetype))
+print(type(result_str))
