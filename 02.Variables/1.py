@@ -1,6 +1,6 @@
 name="Rahul"
 age=18
-city="Junagadh" \
+city="Junagadh" 
 
 #que 25
 student_name = "Rahul"
