@@ -9,10 +9,10 @@ student_branch = "sci"
 
 #que 26
 marks = 75
-print("Before reassignment, marks =", marks)
+print("marks", marks)
 
 marks = 92
-print("After reassignment, marks =", marks)
+print("marks", marks)
 
 #que 27
 name, age, city = "Rahul", 18, "Patna"
