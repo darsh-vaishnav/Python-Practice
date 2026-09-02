@@ -28,18 +28,41 @@ print(len(text))#11
 print(text[5])#_
 print(text[-1])#d
 
-a="PYTHON"
-b="python"
-c="Python"
-d="PYThon"
-e="python is progrraming lanuage"
-f="python is progrraming lanuage "
 
-print(a.lower())
-print(b.upper())
-print(e.capitalize())
-print(d.swapcase())
-print(e.title())
-print(f.casefold())
+#que5
+
+text = "Python Programming"
+
+print("Python" in text) # True
+print("Java" in text) #False
+print("Java" not in text) #True
+
+#que 6
+text = "banana"
+
+print(text.find("a"))#3
+print(text.find("z"))#-1
+print(text.count("a"))#3
+
+#que 7
+text = "Python"
+
+print(text.upper())#PYTHON
+print(text.lower())#python
+print(text.capitalize())#Python
+print(text.title())#Python
+print(text.swapcase())#pYTHON
+
+#que 8
+text = "I like Java"
+
+print(text.replace("Java", "Python"))#I like Python
+
+#que 9
+
+text = "Hello"
+
+print(text + " World")#Hello World
+print(text * 3)#HelloHelloHello
 
 
