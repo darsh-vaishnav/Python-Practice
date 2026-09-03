@@ -80,3 +80,17 @@ print(bool(True))     # True
 print(bool(None))     # False
 
 #Que 29
+print(bool(0))        # False
+print(bool(10))       # True
+print(bool(""))       # False
+print(bool("Hello"))  # True
+print(bool(None))     # False
+
+#Que 30
+print(0 and True)        # 0
+print(1 and True)        # True
+print("" and True)       # ""
+print("Python" and True) # True
+
+print(False and True)    # False
+print(None and True)     # None
